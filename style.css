@@ -1,0 +1,151 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  background-color: #E5E5E5;
+}
+
+.navbar-css {
+  background-color: rgba(41, 38, 38, 0.856) !important;
+  color: #fff !important;
+}
+
+.logo {
+  font-family: 'Salsa', cursive;
+  font-size: 30px;
+}
+
+.sub-logo {
+  color: #C31162 !important;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+.btn-primary {
+  background-color:#C31162 !important;
+  border: none;
+  border-radius: 15px;
+}
+
+.nav-link {
+  margin-left: 50px;
+}
+
+.nav-link:hover {
+  color: #C31162 !important;
+}
+
+a[type="button"]:hover {
+  background-color: #000 !important;
+  color: #C31162 !important;
+  border: 1px solid #C31162;
+}
+
+.reviews {
+  background-color: rgba(195, 17, 98, 0.6);
+}
+
+
+.reviews-text {
+  margin-top: 60px;
+  padding-bottom: 10px;
+  display: inline-block;
+  border-bottom: 2.65396px solid #C31162;
+  margin-bottom: 30px;
+}
+
+.review-name {
+  margin-top: 20px;
+}
+
+.review-image {
+  margin: 0 10px;
+  margin-bottom: 30px;
+}
+
+.review-txt {
+  padding: 0 40px 80px 40px;
+}
+
+
+.contact {
+  margin-bottom: 80px;
+}
+
+.contact-main-text {
+  padding-right: 60px;
+}
+
+.contact-text {
+  margin-bottom: 30px;
+}
+
+.contact-sub {
+  color: #C31162 !important;
+}
+
+.send-btn {
+  color: #fff !important;
+  background-color: rgba(195, 17, 98, 0.6);
+  font-size: 20px;
+  padding: .375rem 1.7rem;
+}
+
+.form-control {
+  background-color: rgba(195, 17, 98, 0.6);
+}
+.page-link{
+  background-color:rgba(195, 17, 98, 0.6);
+}
+
+::-webkit-input-placeholder {
+  color: #fff !important;
+}
+
+:-ms-input-placeholder {
+  color: #fff !important;
+}
+
+::-ms-input-placeholder {
+  color: #fff !important;
+}
+
+::placeholder {
+  color: #fff !important;
+}
+
+.pagination{
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (max-width: 576px) {
+ 
+  .reviews-img {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+
+  .contact {
+    margin-bottom: 50px;
+  }
+}
+
+
+@media only screen and (min-width: 992px) {
+  .reviews-img {
+    padding: 0 300px;
+  }
+}
